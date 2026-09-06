@@ -18,4 +18,5 @@ AC_CHECK_LIB([netpbm],[pbm_readpbm], [], [AC_MSG_ERROR([You need netpbm installe
 
 AC_OUTPUT(Makefile
 libmx5000/Makefile
-mx5000-tool/Makefile)
+mx5000-tool/Makefile
+tests/Makefile)
