@@ -19,7 +19,7 @@
 
 /*
  * These functions exist in mx5000screencontent.c, but are deliberately not
- * declared in the installed public header.  They are the historical menu
+ * declared in the installed public header. They are the historical menu
  * reverse-engineering code this test program is meant to exercise.
  */
 int mx5000_sc_add_menuline(struct MX5000ScreenContent *sc,
@@ -34,8 +34,7 @@ static void usage(const char *prog)
         "Usage:\n"
         "  %s [-d /dev/hidrawX] progress <0..100>\n"
         "  %s [-d /dev/hidrawX] menu <pageid> <first> <text> <8-hex-digits>\n"
-        "  %s [-d /dev/hidrawX] two-menus <pageid> <first> \\\n"
-        "       <text1> <8-hex-digits> <text2> <8-hex-digits>\n"
+        "  %s [-d /dev/hidrawX] two-menus <pageid> <first> <text1> <8-hex-digits> <text2> <8-hex-digits>\n"
         "  %s pbm-dump <file.pbm>\n"
         "\n"
         "Commands:\n"
